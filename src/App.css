@@ -1,0 +1,59 @@
+.container {
+  max-width: 1702px;
+  margin: 0 auto;
+}
+.l{
+  background-image: url(./assets//1.svg);
+}
+.q{
+  background-image: url(./assets/20.svg);
+}
+.w{
+  background-image: url(./assets/21.svg);
+}
+.e {
+  background-image: url(./assets/22.svg);
+}
+.r{
+  background-image: url(./assets/40.svg);
+}
+
+  
+
+#app {
+  height: 100%
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 200px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
